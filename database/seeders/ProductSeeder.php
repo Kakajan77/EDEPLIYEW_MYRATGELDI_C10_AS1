@@ -44,7 +44,7 @@ class ProductSeeder extends Seeder
             return;
         }
 
-        // 🆕 50–100 aralyk bilen product döretmek
+
         $productCount = rand(50, 100);
         for ($i = 0; $i < $productCount; $i++) {
             Product::create([
