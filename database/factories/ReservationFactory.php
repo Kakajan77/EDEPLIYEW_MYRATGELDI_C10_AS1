@@ -32,20 +32,4 @@ class ReservationFactory extends Factory
 }
 
 
-/*
- {
-        $category = Category::inRandomOrder()->first();
-        $album = Album::inRandomOrder()->first();
 
-        return [
-            'category_id' => $category->id,
-            'artist_id' => $album->artist_id,
-            'album_id' => $album->id,
-            'name' => fake()->streetName(),
-            'slug' => str()->random(5),
-            'views' => fake()->numberBetween(50, 100),
-            'downloads' => fake()->numberBetween(25, 50),
-            'favorites' => fake()->numberBetween(0, 25),
-        ];
-    }
- */
