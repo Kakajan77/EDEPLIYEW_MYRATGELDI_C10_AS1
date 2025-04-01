@@ -51,7 +51,7 @@ class User extends Authenticatable
     }
 
 
-    public function subscriptions(): HasMany
+    public function reservation(): HasMany
     {
         return $this->hasMany(Reservation::class);
     }
